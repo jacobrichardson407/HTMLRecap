@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Recap</title>
+</head>
+<body style="background-color: navy;">
+    <div style="background-color: lightblue; border-style: groove; border-color: navy; border-radius: 150px;">
+        <h1 style="text-align: center;">Jake's Donut Shop</h1>
+        <h4 style="text-align: center;">Check out our online ordering!</h4>
+        
+        <div style="padding-left: 175px;">
+            <nav>
+                <a href="https://www.facebook.com/DunkinUS/">Check out our Facebook here!</a>
+            </nav>
+        </div>
+    </div>
+
+    <br>
+
+    <div style="text-align: center;">
+        <img src="https://media.wired.com/photos/6074aa620dfeac35a0cca839/master/pass/Science_donuts_465529983.jpg" alt="donuts" width="1200" height="600" style="border-radius: 100px; text-align: center;">
+    </div>
+
+
+    <div style="border: solid 2px navy; padding: .5rem; text-align: center; border-width: 75px; background-color: lightblue;">
+        <h3>Order Online Now!</h3>
+        <form action="">
+            <fieldset>
+                <legend>Customer Information</legend>
+                <p>
+                    <label for="">Customer Name: <input name="name"></label>
+                </p>
+                <p>
+                    <label for="">Telephone: <input type="tel" name="tel"></label>
+                </p>
+                <p>
+                    <label for="">Email Address: <input name="email"></label>
+                </p>
+            </fieldsedt>
+
+            <br>
+
+            <fieldset>
+                <legend>Glaze/Frosting</legend>
+                <p>
+                    <input type="radio" name="frost" id="frost1" value="frost1">
+                    <label for="frost1">None</label>
+                </p>
+                <p>
+                    <input type="radio" name="frost" id="frost2" value="frost2">
+                    <label for="frost2">Glaze</label>
+                </p>
+                <p>
+                    <input type="radio" name="frost" id="frost3" value="frost3">
+                    <label for="frost3">Chocolate</label>
+                </p>
+                <p>
+                    <input type="radio" name="frost" id="frost4" value="frost4">
+                    <label for="frost4">Vanilla</label>
+                </p>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Filling</legend>
+                <p>
+                    <input type="radio" name="fill" id="fill1" value="fill1">
+                    <label for="fill1">None</label>
+                </p>
+                <p>
+                    <input type="radio" name="fill" id="fill2" value="fill2">
+                    <label for="fill2">Raspbery</label>
+                </p>
+                <p>
+                    <input type="radio" name="fill" id="fill3" value="fill3">
+                    <label for="fill3">Cream</label>
+                </p>
+                <p>
+                    <input type="radio" name="fill" id="fill4" value="fill4">
+                    <label for="fill4">Boston Cream</label>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Amount</legend>
+                <p>
+                    <input type="radio" name="amount" id="dozen" value="dozen">
+                    <label for="amount">Dozen</label>
+                </p>
+                <p>
+                    <h6>Other amount:</h6>
+                    <input type="number" name="amount" id="other">
+                </p>
+
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend>Delivery Instructions</legend>
+                <p>
+                    <label for="time">Preferred Delivery Time</label>
+                    <input type="time" name="time" id="time" min="11:00" max="21:00">
+                </p>
+                <p>
+                    <label for="instructions">Delivery Instructions</label>
+                    <textarea name="instructions" id="instructions"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit Order</button>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+
+    <div style="text-align: center;">
+        <h3 style="color: lightblue;">Watch how our donuts are made:</h3>
+        <iframe width="784" height="441" src="https://www.youtube.com/embed/N_r6_CEUlPM" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <footer style="background-color: lightblue; color: navy; text-align: center;">
+        <p>Copyright 2006 The Example Company</p>
+        <p>
+            <a href="#about">About Us</a>
+            <a href="#policy">Policy</a>
+            <a href="#contact">Contact Us</a>
+        </p>
+    </footer>
+</body>
+</html>
